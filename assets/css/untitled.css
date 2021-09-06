@@ -1,0 +1,52 @@
+.colchange { 
+              animation: redred 1000ms 0ms infinite linear;
+            }
+            @keyframes redred {
+              0% {
+                filter: hue-rotate(0deg);
+              }
+              100% {
+                filter: hue-rotate(360deg);
+              }
+            }
+
+.zoom {
+      transition: transform .2s; /* Animation */
+    }
+
+    .zoom:hover {
+      transform: scale(1.05);
+    }
+
+.gold { background: linear-gradient(
+                            to right,
+                            #462523 0,
+                            
+                            #cb9b51 42%, 
+                            #f6e27a 45%,
+                            #ffffff 50%,
+                            #f6e27a 55%,
+                            #cb9b51 58%,
+                            
+                            #462523 100%
+                            );
+              background-size: 300% 300%;
+        animation: mymove3 4s linear infinite;
+            }
+@keyframes mymove3 {
+  0% {
+    background-position: 100% 50%;
+  }
+  50% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+  
+}
+
+          
+
+
+
